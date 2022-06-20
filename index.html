@@ -498,16 +498,73 @@
               </li>
             </ul>
           </li>
+          <li>
+            <div class="container-newsletter">
+              <h4 class="tittle-newsletter">zapisz sie do newslettera</h4>
+              <form class="newsletter" name="newsletter">
+                <label>
+                  <input
+                    class="e-mail-news"
+                    type="email"
+                    name="email"
+                    placeholder="E-mail"
+                  />
+                </label>
+                <button class="btn-newsletter" type="submit">
+                  <span class="btn-text"
+                    >Zapisz się
+                    <svg class="iconsend" width="24" height="24">
+                      <use href="imagines/icons.svg.svg#iconsend"></use>
+                    </svg>
+                  </span>
+                </button>
+              </form>
+            </div>
+          </li>
         </ul>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidde" data-modal>
       <div class="modal">
         <button type="button" class="close-modal" data-modal-close>
           <svg width="11" height="11">
             <use href="imagines/icons.svg.svg#cross"></use>
           </svg>
         </button>
+      <div class="form-in-modal">
+        <form name="contact form">
+          <h2 class="tittle-modal">Zostaw swoje dane w formularzu poniżej</h2>
+          <label class="focus-color-modal">
+            <p class="tip">Imię</p>
+            <svg class="icon-modal-user" width="12" height="12">
+              <use href="imagines\icons.svg.svg#name-modal"></use>
+            </svg>
+            <input class="rubric-modal" type="text" name="name" required/>
+          </label>
+            <label class="focus-color-modal">
+              <p class="tip">Telefon</p>
+              <svg class="icon-modal-user" width="13" height="13">
+              <use href="imagines\icons.svg.svg#phone-modal"></use>
+            </svg>
+              <input class="rubric-modal" type="tel" name="phone" required/>
+            </label>
+            <label class="focus-color-modal">
+              <p class="tip">Email</p>
+              <svg class="icon-modal-user" width="15" height="12">
+              <use href="imagines\icons.svg.svg#email-modal"></use>
+            </svg>
+              <input class="rubric-modal" type="email" name="email" required/>
+            </label>
+            <label>
+              <p class="tip">Komentarz</p>
+              <textarea class="place-on-text-modal" name="komentarz" rows="5" placeholder="Wprowadź tekst"></textarea>
+            </label>
+            <label>
+              <input class="checbox-modal" type="checkbox" name="submit" value="yes" required/>
+              <p class="regulations-modal">Oświadczam iż akcepkuję <span>regulamin</span> i <span>politykę prywatności.</span></p>
+            </label>
+            <button class="btn-modal-send" type="submit">Wyślij</button>
+        </form>
       </div>
     </div>
     <script src="js/modal.js"></script>
