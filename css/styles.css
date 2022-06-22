@@ -591,6 +591,7 @@ figure {
   left: 50%;
   transform: translateX(-50%);
   top: 30px;
+  cursor: pointer;
 }
 .tip {
   font-size: 12px;
