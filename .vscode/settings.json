@@ -1,22 +1,19 @@
 {
-  {
-    "workbench.colorTheme": "Default Dark+",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "editor.fontSize": 22,
-    "liveSassCompile.settings.autoprefix": [],
-    "liveSassCompile.settings.formats": [
-      // This is Default.
-      {
-        "format": "expanded",
-        "extensionName": ".css",
-        "savePath": null
-      },
-      // You can add more
-      {
-        "format": "compressed",
-        "extensionName": ".min.css",
-        "savePath": "~/../css/"
-      },
-    ]
-  }
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.fontSize": 16,
+  "liveSassCompile.settings.autoprefix": [],
+  "liveSassCompile.settings.formats": [
+    // This is Default.
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    },
+    // You can add more
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css/"
+    },
+  ]
 }
